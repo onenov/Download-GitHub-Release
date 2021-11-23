@@ -17,7 +17,8 @@ apt-get install ca-certificates wget -y && update-ca-certificates
 ## 用法
 
 ```
-chmod a+x [download-github-release.sh](http://download-github-release.sh/)
+wget https://github.com/onenov/Download-GitHub-Release/releases/download/public/download-github-release.sh
+chmod a+x download-github-release.sh
 ```
 
 ### 默认下载最新release
